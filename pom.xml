@@ -22,9 +22,9 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://23.21.31.3:5000/</sonar.host.url>
+		<sonar.host.url>http://172.31.23.97:5000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
-		<sonar.password>Champion666$</sonar.password>
+		<sonar.password>admin123</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
@@ -101,8 +101,8 @@
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://23.21.31.3:6500/content/repositories/snapshot</url>
+	      <name>Landmark Technologies Snapshot Nexus Repository</name>
+	      <url>http://18.215.145.122:1000/content/repositories/thirdparty/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
